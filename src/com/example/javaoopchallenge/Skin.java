@@ -18,18 +18,6 @@ public class Skin extends Organs{
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public int getSoftness() {
-        return softness;
-    }
-
-    public void setSoftness(int softness) {
-        this.softness = softness;
-    }
-
 
     //Method
     @Override

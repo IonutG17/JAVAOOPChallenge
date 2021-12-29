@@ -16,10 +16,6 @@ public class Stomach extends Organs{
         return isEmpty;
     }
 
-    public void setEmpty(boolean empty) {
-        isEmpty = empty;
-    }
-
 
     //Methods
     @Override

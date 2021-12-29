@@ -27,55 +27,27 @@ public class Patient {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getAge() {
         return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     public Eye getLeftEye() {
         return leftEye;
     }
 
-    public void setLeftEye(Eye leftEye) {
-        this.leftEye = leftEye;
-    }
-
     public Eye getRightEye() {
         return rightEye;
-    }
-
-    public void setRightEye(Eye rightEye) {
-        this.rightEye = rightEye;
     }
 
     public Heart getPatientHeart() {
         return patientHeart;
     }
 
-    public void setPatientHeart(Heart patientHeart) {
-        this.patientHeart = patientHeart;
-    }
-
     public Stomach getPatientStomach() {
         return patientStomach;
     }
 
-    public void setPatientStomach(Stomach patientStomach) {
-        this.patientStomach = patientStomach;
-    }
-
     public Skin getPatientSkin() {
         return patientSkin;
-    }
-
-    public void setPatientSkin(Skin patientSkin) {
-        this.patientSkin = patientSkin;
     }
 }
